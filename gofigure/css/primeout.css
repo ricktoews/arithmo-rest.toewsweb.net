@@ -1,0 +1,97 @@
+.item {
+    font:48pt verdana;
+    color:white;
+    text-shadow:1px 1px 2px #333;
+    box-shadow:0px 0px 4px #333;
+    border-radius:10px;
+    position:absolute;
+    width:95px;
+    height:95px;
+    text-align:center;
+    opacity:.9;
+    cursor:pointer;
+}
+#field {
+    position:relative;
+    width:800px;
+    height:500px;
+    margin:auto;
+    background:#eee;
+}
+#msg_box {
+    position:relative;
+    margin:auto;
+    width:800px;
+    height:50px;
+}
+#msg {
+    text-align:center;
+    font:16pt arial;
+    color:#333;
+    display:none;
+}
+#scoreboard {
+    float:right;
+    position:relative;
+    width:100%;
+    height:20px;
+}
+#scoreboard p {
+    float:left;
+    margin:3px 10px 0 0;
+    font:10pt verdana;
+    color:#f90;
+}
+#scoreboard ul {
+    float:left;
+    margin:0;
+    padding:0;
+}
+#scoreboard li {
+    display:inline;
+    width:10px;
+    height:10px;
+    margin:5px;
+    float:left;
+}
+#homeruns {
+    float:left;
+}
+#outs {
+    float:right;
+}
+#homeruns li {
+    border:1px solid green;
+}
+#outs li {
+    border:1px solid red;
+}
+
+#overlay {
+    background:black;
+    opacity:.8;
+    position:fixed;
+    top:0;
+    left:0;
+    width:2000px;
+    height:2000px;
+    display:none;
+}
+.popup {
+    display:none;
+    position:absolute;
+    background:white;
+    width:300px;
+    border-radius:20px;
+    box-shadow:0 0 10px black;
+    padding:30px;
+    font:10pt verdana;
+    color:#333;
+}
+.popup a {
+    text-decoration:none;
+    color:#09f;
+}
+.popup a:hover {
+    text-decoration:underline;
+}
