@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Krypto!</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <link rel="stylesheet" href="krypto.css"/>
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+  <script src="krypto.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a">
+  <div data-role="header">
+    <h1>Krypto!</h1>
+  </div>
+
+  <div data-role="content" style="text-align:center;">
+    <ul class="hand" data-role="controlgroup" data-type="horizontal">
+      <li data-role="button"></li>
+      <li data-role="button"></li>
+      <li data-role="button"></li>
+      <li data-role="button"></li>
+      <li data-role="button"></li>
+    </ul>
+
+    <ul class="operators" data-role="controlgroup" data-type="horizontal">
+      <li data-role="button" data-theme="b">+</li>
+      <li data-role="button" data-theme="b">-</li>
+      <li data-role="button" data-theme="b">x</li>
+      <li data-role="button" data-theme="b">/</li>
+    </ul>
+
+    <ul class="my-solution" data-role="controlgroup" data-type="horizontal">
+      <li data-role="button" data-theme="c"></li>
+      <li data-role="button" data-theme="e"></li>
+      <li data-role="button" data-theme="c"></li>
+      <li data-role="button" data-theme="e"></li>
+      <li data-role="button" data-theme="c"></li>
+      <li data-role="button" data-theme="e"></li>
+      <li data-role="button" data-theme="c"></li>
+      <li data-role="button" data-theme="e"></li>
+      <li data-role="button" data-theme="c"></li>
+    </ul>
+
+    <div class="my-result"></div>
+
+    <div class="objective">
+      <span id="solution" data-role="button"></span>
+    </div>
+
+    <div data-role="controlgroup" data-type="horizontal">
+      <span class="reset" data-role="button">Reset</span>
+      <span class="undo" data-role="button">Undo Last</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
