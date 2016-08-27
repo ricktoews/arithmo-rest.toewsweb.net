@@ -5,6 +5,7 @@ require 'api_functions/functions.php';
 require 'api_classes/connect.php';
 
 $app = new \Slim\App();
+error_log('arithmo-rest index.php app: ' . json_encode($app));
 
 //-----------------------------------------------------------------------------
 // CORS
