@@ -1,2 +1,0 @@
-
-Fatal error: Allowed memory size of 33554432 bytes exhausted (tried to allocate 35 bytes) in /home/arithmo/public_html/api/api_classes/makelist.php on line 16
